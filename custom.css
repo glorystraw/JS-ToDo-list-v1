@@ -1,0 +1,114 @@
+body {
+/* width: 100wh;
+height: 90vh; */
+color: #fff;
+background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+background-size: 400% 400%;
+}
+
+div.container {
+background: #fff;
+color: #000;
+display: block;
+border-radius:10px;
+max-width: 50%;
+margin: 100px auto 0;
+padding: 10px;
+}
+
+div.container button#add {
+margin: 10px;
+padding: 10px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;
+text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+box-shadow: 0 0 20px #eee;
+border-radius: 3px;
+border: 1px solid #ccc;
+ }
+
+div.container button#add:hover {
+background-position: right center;
+}
+
+div.container button#add {
+background-image: linear-gradient(to right, #AA076B 0%, #61045F 51%, #AA076B 100%);
+}
+
+#sortBtn {
+display: block;
+padding: 5px;
+border: 0px;
+text-decoration: underline;
+}
+
+input {
+width: 30%;
+padding: 5px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+h3 {
+font-family: cursive;
+margin-bottom: 0px;
+background: #f9f9f9;
+padding: 5px;
+}
+
+ul {
+list-style-type: none;
+padding: 0px;
+}
+
+ul li input[type=text] {
+display: none;
+}
+
+ul li.editMode input[type=text] {
+display: block;
+margin-right: 10px;
+}
+
+li * {
+float: left;
+}
+
+li {
+overflow:hidden;
+padding:5px;
+border-bottom:1px solid #ccc;
+}
+
+li.editMode div.todo-title, li.editMode div.todo-item {
+display:none;
+}
+
+button.checkbox {
+float: left;
+margin-right: 10px;
+background: none;
+border: none;
+padding: 5px;
+}
+
+div.todo-title, div.todo-item {
+display: block;
+width: 30%;
+margin-right: 15px;
+overflow-wrap: break-word;
+}
+
+button.far-icons {
+margin-right: 5px;
+background: none;
+border: none;
+padding:5px;
+}
+ul#completed-tasks div
+{
+  text-decoration: line-through;
+}

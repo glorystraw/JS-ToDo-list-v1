@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <title>ToDo Task List</title>
+    </head>
+    <body>
+      <div id="root">
+<div class="container">
+<h3>Add ToDo Task</h3>
+  <input id="new-task-title" type="text" placeholder="Add Task Title">
+    <input id="new-task" type="text" placeholder="Add Task Description">
+    <button id="add">Add Task</button>
+<div id = "sort-buttons">
+    <a href="#" class="buttons link-sort-list asc"><i class="icon-asc"></i>Asc</a>
+<a href="#" class="buttons link-sort-list desc"><i class="icon-desc"></i>Desc</a>
+</div>
+<h3>ToDo Task List</h3>
+
+    <ul id="uncompleted-tasks">
+
+
+      </ul>
+<h3>ToDo Completed Task List</h3>
+    <ul id="completed-tasks">
+
+
+      </ul>
+
+  </div>
+      </div>
+      <script src="todo.js"></script>
+
+    </body>
+</html>
