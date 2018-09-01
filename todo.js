@@ -208,33 +208,3 @@ $(document).ready(function() {
         e.preventDefault();
    });
 });
-
-//Pure js sorting bad for DOM
-// function sortUnorderedList(ul, sortDescending) {
-//     if(typeof ul == "string")
-//     ul = document.getElementById(ul);
-//
-//     let lis = ul.getElementsByClassName("todo-title");
-//     let vals = [];
-//
-//     for(let i = 0, l = lis.length; i < l; i++)
-//     vals.push(lis[i].innerHTML);
-//
-//     vals.sort();
-//
-//     if(sortDescending)
-//     vals.reverse();
-//
-//     for(let i = 0, l = lis.length; i < l; i++)
-//     lis[i].innerHTML = vals[i];
-//     }
-//
-//     window.onload = function() {
-//           let desc = false;
-//           document.getElementById("sortBtn").onclick = function() {
-//             sortUnorderedList("uncompleted-tasks", desc);
-//             sortUnorderedList("completed-tasks", desc);
-//             desc = !desc;
-//             return false;
-//           };
-//         };
