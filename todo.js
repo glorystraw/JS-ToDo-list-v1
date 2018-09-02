@@ -187,7 +187,7 @@ for(let i = 0; i < data.completedTasks.length; i++){
 
 //Jquery Sorting ToDo Tasks, we're sorting only incompleted tasks
 $(document).ready(function() {
-   $('.link-sort-list, .far-icons').click(function(e) {
+   $('.link-sort-list, .checkbox, #add').click(function(e) {
 
         var $sort = this;
         var $list = $('ul#uncompleted-tasks');
